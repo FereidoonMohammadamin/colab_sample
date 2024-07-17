@@ -1,0 +1,72 @@
+changes:
+
+prediction
+prediction_11_15_Z_A_A100
+
+time_cell
+time_cell_11_15_Z_A_A100
+
+
+'/content/jaxalpha/multi/out_multi_Z_A/6_10'
+'/content/jaxalpha/multi/out_multi_Z_A/11_15'
+
+
+'/content/drive/My Drive/parjax_cla_multi_6_10_Z_A_A100.zip'
+'/content/drive/My Drive/parjax_cla_multi_11_15_Z_A_A100.zip'
+
+
+
+````````````````````````````````````````````````````````````````````````````````````````````
+اسم
+parjax_cla_multi_1_5_A_Z_A100
+
+اسم فایل متنی
+time_cell_1_5_A_Z_A100
+
+اسم بالای اجرا
+prediction_1_5_A_Z_A100
+
+اسم مسیری که باید زیپ شه
+'/content/jaxalpha/multi/out_multi_A_Z/1_5'
+
+اسم فایل زیپه
+'/content/drive/My Drive/parjax_cla_multi_1_5_A_Z_A100.zip'
+
+
+
+python parjax_cla_multi_gpu0.py \
+  --fasta_paths=/home/koohi/fereidoon/ParallelFold/multi/8EM5/8EM5.fasta,/home/koohi/fereidoon/ParallelFold/multi/8PBV/8PBV.fasta,/home/koohi/fereidoon/ParallelFold/multi/7ROA/7ROA.fasta,/home/koohi/fereidoon/ParallelFold/multi/7PZT/7PZT.fasta,/home/koohi/fereidoon/ParallelFold/multi/8D27/8D27.fasta  \
+  --output_dir=/home/koohi/fereidoon/ParallelFold/multi/out_multi_Z_A/benchmark/11_15 \
+  --parameter_path=/home/koohi/fereidoon/ParallelFold/alldata/params \
+  --feature_files=/home/koohi/fereidoon/ParallelFold/multi/8EM5/feature.pkl,/home/koohi/fereidoon/ParallelFold/multi/8PBV/feature.pkl,/home/koohi/fereidoon/ParallelFold/multi/7ROA/feature.pkl,/home/koohi/fereidoon/ParallelFold/multi/7PZT/feature.pkl,/home/koohi/fereidoon/ParallelFold/multi/8D27/feature.pkl \
+  --use_gpu_relax=true \
+  --benchmark=true
+
+
+Your daily free of charge resource allowance has almost run out. Your runtimes will terminate soon.
+
+
+python parjax_cla_multi.py \
+  --fasta_paths=/home/koohi/fereidoon/ParallelFold/multi/2LHC/2LHC.fasta,/home/koohi/fereidoon/ParallelFold/multi/2LHG/2LHG.fasta,/home/koohi/fereidoon/ParallelFold/multi/2LHE/2LHE.fasta,/home/koohi/fereidoon/ParallelFold/multi/2LHD/2LHD.fasta,/home/koohi/fereidoon/ParallelFold/multi/6UF2/6UF2.fasta,/home/koohi/fereidoon/ParallelFold/multi/7CN6/7CN6.fasta,/home/koohi/fereidoon/ParallelFold/multi/7JTL/7JTL.fasta,/home/koohi/fereidoon/ParallelFold/multi/7CWP/7CWP.fasta,/home/koohi/fereidoon/ParallelFold/multi/6Y4F/6Y4F.fasta,/home/koohi/fereidoon/ParallelFold/multi/6ZYC/6ZYC.fasta,/home/koohi/fereidoon/ParallelFold/multi/8EM5/8EM5.fasta,/home/koohi/fereidoon/ParallelFold/multi/8PBV/8PBV.fasta,/home/koohi/fereidoon/ParallelFold/multi/7ROA/7ROA.fasta,/home/koohi/fereidoon/ParallelFold/multi/7PZT/7PZT.fasta,/home/koohi/fereidoon/ParallelFold/multi/8D27/8D27.fasta  \
+  --output_dir=/home/koohi/fereidoon/ParallelFold/multi/all_123_not_bench \
+  --parameter_path=/home/koohi/fereidoon/ParallelFold/alldata/params \
+  --feature_files=/home/koohi/fereidoon/ParallelFold/multi/2LHC/feature.pkl,/home/koohi/fereidoon/ParallelFold/multi/2LHG/feature.pkl,/home/koohi/fereidoon/ParallelFold/multi/2LHE/feature.pkl,/home/koohi/fereidoon/ParallelFold/multi/2LHD/feature.pkl,/home/koohi/fereidoon/ParallelFold/multi/6UF2/feature.pkl,/home/koohi/fereidoon/ParallelFold/multi/7CN6/feature.pkl,/home/koohi/fereidoon/ParallelFold/multi/7JTL/feature.pkl,/home/koohi/fereidoon/ParallelFold/multi/7CWP/feature.pkl,/home/koohi/fereidoon/ParallelFold/multi/6Y4F/feature.pkl,/home/koohi/fereidoon/ParallelFold/multi/6ZYC/feature.pkl,/home/koohi/fereidoon/ParallelFold/multi/8EM5/feature.pkl,/home/koohi/fereidoon/ParallelFold/multi/8PBV/feature.pkl,/home/koohi/fereidoon/ParallelFold/multi/7ROA/feature.pkl,/home/koohi/fereidoon/ParallelFold/multi/7PZT/feature.pkl,/home/koohi/fereidoon/ParallelFold/multi/8D27/feature.pkl \
+  --use_gpu_relax=true
+
+
+
+
+python parjax_cla_multi_gpu0.py \
+  --fasta_paths=/home/koohi/fereidoon/ParallelFold/multi/8D27/8D27.fasta,/home/koohi/fereidoon/ParallelFold/multi/7PZT/7PZT.fasta,/home/koohi/fereidoon/ParallelFold/multi/6ZYC/6ZYC.fasta,/home/koohi/fereidoon/ParallelFold/multi/6Y4F/6Y4F.fasta,/home/koohi/fereidoon/ParallelFold/multi/7CWP/7CWP.fasta,/home/koohi/fereidoon/ParallelFold/multi/7ROA/7ROA.fasta,/home/koohi/fereidoon/ParallelFold/multi/6UF2/6UF2.fasta,/home/koohi/fereidoon/ParallelFold/multi/8PBV/8PBV.fasta,/home/koohi/fereidoon/ParallelFold/multi/7JTL/7JTL.fasta,/home/koohi/fereidoon/ParallelFold/multi/8EM5/8EM5.fasta,/home/koohi/fereidoon/ParallelFold/multi/7CN6/7CN6.fasta,/home/koohi/fereidoon/ParallelFold/multi/2LHC/2LHC.fasta,/home/koohi/fereidoon/ParallelFold/multi/2LHG/2LHG.fasta,/home/koohi/fereidoon/ParallelFold/multi/2LHE/2LHE.fasta,/home/koohi/fereidoon/ParallelFold/multi/2LHD/2LHD.fasta   \
+  --output_dir=/home/koohi/fereidoon/ParallelFold/multi/all_123_not_bench/gpu0/  \
+  --parameter_path=/home/koohi/fereidoon/ParallelFold/alldata/params \
+  --feature_files=/home/koohi/fereidoon/ParallelFold/multi/8D27/feature.pkl,/home/koohi/fereidoon/ParallelFold/multi/7PZT/feature.pkl,/home/koohi/fereidoon/ParallelFold/multi/6ZYC/feature.pkl,/home/koohi/fereidoon/ParallelFold/multi/6Y4F/feature.pkl,/home/koohi/fereidoon/ParallelFold/multi/7CWP/feature.pkl,/home/koohi/fereidoon/ParallelFold/multi/7ROA/feature.pkl,/home/koohi/fereidoon/ParallelFold/multi/6UF2/feature.pkl,/home/koohi/fereidoon/ParallelFold/multi/8PBV/feature.pkl,/home/koohi/fereidoon/ParallelFold/multi/7JTL/feature.pkl,/home/koohi/fereidoon/ParallelFold/multi/8EM5/feature.pkl,/home/koohi/fereidoon/ParallelFold/multi/7CN6/feature.pkl,/home/koohi/fereidoon/ParallelFold/multi/2LHC/feature.pkl,/home/koohi/fereidoon/ParallelFold/multi/2LHG/feature.pkl,/home/koohi/fereidoon/ParallelFold/multi/2LHE/feature.pkl,/home/koohi/fereidoon/ParallelFold/multi/2LHD/feature.pkl  \
+  --use_gpu_relax=true
+  
+
+python parjax_cla_multi.py \
+  --fasta_paths=/home/koohi/fereidoon/ParallelFold/multi/8D27/8D27.fasta,/home/koohi/fereidoon/ParallelFold/multi/7PZT/7PZT.fasta,/home/koohi/fereidoon/ParallelFold/multi/6ZYC/6ZYC.fasta,/home/koohi/fereidoon/ParallelFold/multi/6Y4F/6Y4F.fasta,/home/koohi/fereidoon/ParallelFold/multi/7CWP/7CWP.fasta,/home/koohi/fereidoon/ParallelFold/multi/7ROA/7ROA.fasta,/home/koohi/fereidoon/ParallelFold/multi/6UF2/6UF2.fasta,/home/koohi/fereidoon/ParallelFold/multi/8PBV/8PBV.fasta,/home/koohi/fereidoon/ParallelFold/multi/7JTL/7JTL.fasta,/home/koohi/fereidoon/ParallelFold/multi/8EM5/8EM5.fasta,/home/koohi/fereidoon/ParallelFold/multi/7CN6/7CN6.fasta,/home/koohi/fereidoon/ParallelFold/multi/2LHC/2LHC.fasta,/home/koohi/fereidoon/ParallelFold/multi/2LHG/2LHG.fasta,/home/koohi/fereidoon/ParallelFold/multi/2LHE/2LHE.fasta,/home/koohi/fereidoon/ParallelFold/multi/2LHD/2LHD.fasta   \
+  --output_dir=/home/koohi/fereidoon/ParallelFold/multi/all_123_not_bench/gpu1/  \
+  --parameter_path=/home/koohi/fereidoon/ParallelFold/alldata/params \
+  --feature_files=/home/koohi/fereidoon/ParallelFold/multi/8D27/feature.pkl,/home/koohi/fereidoon/ParallelFold/multi/7PZT/feature.pkl,/home/koohi/fereidoon/ParallelFold/multi/6ZYC/feature.pkl,/home/koohi/fereidoon/ParallelFold/multi/6Y4F/feature.pkl,/home/koohi/fereidoon/ParallelFold/multi/7CWP/feature.pkl,/home/koohi/fereidoon/ParallelFold/multi/7ROA/feature.pkl,/home/koohi/fereidoon/ParallelFold/multi/6UF2/feature.pkl,/home/koohi/fereidoon/ParallelFold/multi/8PBV/feature.pkl,/home/koohi/fereidoon/ParallelFold/multi/7JTL/feature.pkl,/home/koohi/fereidoon/ParallelFold/multi/8EM5/feature.pkl,/home/koohi/fereidoon/ParallelFold/multi/7CN6/feature.pkl,/home/koohi/fereidoon/ParallelFold/multi/2LHC/feature.pkl,/home/koohi/fereidoon/ParallelFold/multi/2LHG/feature.pkl,/home/koohi/fereidoon/ParallelFold/multi/2LHE/feature.pkl,/home/koohi/fereidoon/ParallelFold/multi/2LHD/feature.pkl  \
+  --use_gpu_relax=true
